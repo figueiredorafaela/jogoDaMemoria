@@ -73,7 +73,7 @@ function shuffleCards(){
     flipsTag.innerText = flips;
     disableDeck = isPlaying = false;
 
-    let arr = ["bx-heart", "bxs-pear", "bx-lemon", "bx-baguette", "bx-leaf", "bxs-leaf"];
+    let arr = ["bx-heart", "bxs-pear", "bx-lemon", "bx-baguette","bx-lemon", "bx-leaf","bx-heart", "bxs-leaf", "bx-leaf", "bxs-pear", "bx-baguette", "bxs-leaf"];
     arr.sort(() => Math.random() > 0.5 ? 1 : -1);
 
     cards.forEach((card, index) => {
